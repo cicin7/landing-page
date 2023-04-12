@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.header-back {
+  background-color: #1F2937;
+}
+
+.header {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  padding: 15px 0 30px 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.img {
+  display: flex;
+  width: 600px;
+  background-color: #6D747D;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  max-width: 450px;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  padding: 5px 20px 7px 20px;
+  font-weight: bold;
+  box-shadow: none;
+  border: none;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+
+.section-2 {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.kocke {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.kocka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kocka p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.prazan-kvadrat {
+  border: 3px #3882F6 solid;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.section-3 {
+  background-color: #E5E7EB;
+}
+
+.wrapper-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.wrapper-3 h1 {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.wrapper-3 p {
+  text-align: right;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 21px;
+  padding-right: 40px;
+
+}
+
+.section-4 {
+  background-color: white;
+}
+
+.wrapper-4 {
+  width: 1200px;
+  margin: 100px auto;
+  background-color: #3883F6;
+  border-radius: 5px;
+  height: 130px;
+  padding: 40px 120px;
+}
+
+.content-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text h1 {
+  font-size: 20px;
+}
+
+.text p {
+  font-size: 16px;
+  display: inline;
+}
+
+.btn-4 {
+  border: 2px white solid;
+  padding: 5px 25px;
+}
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 16px;
+}
+
+  </style>
+
+</head>
+<body>
+
+<!-- HEADER -->
+      <div class="header-back">
+      <div class="header">
+          <nav>
+            <div class="logo">
+                Header Logo
+            </div>
+            <ul>
+              <li>header link one</li>
+              <li>header link two</li>
+              <li>header link three</li>
+            </ul>
+          </nav>  
+
+        <header class="content">
+          <div class="text">
+            <h1>
+              This website is awesome
+            </h1>
+            <p>
+              This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+            </p>
+            <button class="main">
+              Sign up
+            </button>
+          </div>
+          <div class="img">
+            this is a placeholder for an image
+          </div>
+        </header>
+      </div>
+      </div>
+
+<!-- 2nd SECTION -->
+
+      <div class="section-2">
+        <div class="wrapper-2">
+              <h1>
+                Some random information.
+              </h1>
+              <div class="kocke">
+                <div class="kocka">
+                  <div class="prazan-kvadrat"></div>
+                  <p class="opis-kocke">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="kocka">
+                  <div class="prazan-kvadrat"></div>
+                  <p class="opis-kocke">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="kocka">
+                  <div class="prazan-kvadrat"></div>
+                  <p class="opis-kocke">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="kocka">
+                  <div class="prazan-kvadrat"></div>
+                  <p class="opis-kocke">this is some subtext under an illustration or image</p>
+                </div>
+              </div>
+        </div>
+      </div>
+
+<!-- 3rd SECTION -->
+      <div class="section-3">
+          <div class="wrapper-3">
+            <h1>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h1>
+            <p>-Thor, God of Thunder</p>
+          </div>
+      </div>
+
+<!-- 4th SECTION -->
+      <div class="section-4">
+          <div class="wrapper-4">
+              <div class="content-4">
+                <div class="text">
+                  <h1>Call to action! It's time!</h1>
+                  <p>Sign up for our product by clicking that button right over there.</p>
+                </div>
+                <button class="btn-4">
+                  Sign up
+                </button>
+              </div>
+          </div>
+      </div>
+
+<!-- FOOTER -->
+
+      <div class="footer">
+        Copyright © The Odin Project 2023
+      </div>
+
+
+
+</body>
+</html>
